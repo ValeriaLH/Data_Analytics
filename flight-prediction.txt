@@ -1,0 +1,27 @@
+This data is collected from the Bureau of Transportation Statistics, Govt. of the USA. This data is open-sourced under U.S. Govt. Works. This dataset contains all the flights in the month of January 2015. There are more than 400,000 flights in the month of January itself throughout the United States. The features were manually chosen to do a primary time series analysis. There are several other features available on their website.
+
+This data could well be used to predict the flight delay at the destination airport particularly for the month of January in upcoming years as the data is for January only.
+
+Attributes
+
+DAY_OF_MONTHDay of Month
+DAY_OF_WEEKDay of Week
+OP_UNIQUE_CARRIERUnique Carrier Code. When the same code has been used by multiple carriers, a numeric suffix is used for earlier users, for example, PA, PA(1), PA(2).
+OP_CARRIER_AIRLINE_IDAn identification number assigned by US DOT to identify a unique airline (carrier). A unique airline (carrier) is defined as one holding and reporting under the same DOT certificate regardless of its Code, Name, or holding company/corporation.
+OP_CARRIERCode assigned by IATA and commonly used to identify a carrier. As the same code may have been assigned to different carriers over time, the code is not always unique.
+TAIL_NUMTail Number
+OP_CARRIER_FL_NUMFlight Number
+ORIGIN_AIRPORT_IDOrigin Airport, Airport ID. An identification number assigned by US DOT to identify a unique airport.
+ORIGIN_AIRPORT_SEQ_IDOrigin Airport, Airport Sequence ID. An identification number assigned by US DOT to identify a unique airport at a given point of time.
+ORIGINOrigin Airport
+DEST_AIRPORT_IDDestination Airport, Airport ID. An identification number assigned by US DOT to identify a unique airport.
+DEST_AIRPORT_SEQ_IDDestination Airport, Airport Sequence ID. An identification number assigned by US DOT to identify a unique airport at a given point of time.
+DESTDestination Airport
+DEP_TIMEActual Departure Time (local time: hhmm)
+DEP_DEL15Departure Delay Indicator, 15 Minutes or More (1=Yes, 0=No)
+DEP_TIME_BLKDeparture Time Block, Hourly Intervals
+ARR_TIMEActual Arrival Time (local time: hhmm)
+ARR_DEL15Arrival Delay Indicator, 15 Minutes or More (1=Yes, 0=No)
+CANCELLEDCancelled Flight Indicator (1=Yes, 0=No)
+DIVERTEDDiverted Flight Indicator (1=Yes, 0=No)
+DISTANCEDistance between airports (miles)
